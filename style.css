@@ -13,7 +13,8 @@
     --white: #ffffff;
     --graphic-text: #25564b;
     --photography-text: #19536b;
-    --footer: #458c7e;
+    --footer: #2D7464;
+    --footer-bg: #90d4c5;
     --background-color: #FFFBFB;
 }
 
@@ -187,7 +188,7 @@ header .arrow-down{
     line-height: 2rem;
     opacity: .6;
     font-weight: 600;
-    padding: 0px 16px;
+    padding: 0px 12px;
 }
 
 .client__name{
@@ -200,4 +201,54 @@ header .arrow-down{
     color: var(--gray);
     font-weight: 600;
     padding-top: 12px;
+}
+
+.images{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.images img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    height: 50vh;
+    background-color: var(--footer-bg);
+    color: var(--footer);
+    padding: 68px 16px;
+}
+
+.texts{
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 2.5em;
+    font-family: var(--text-font);
+}
+
+.items{
+    display: flex;
+    font-family: var(--text-font);
+    font-size: 18px;
+    gap: 42px;
+    opacity: .7;
+}
+.icons img{
+    width: 1.4rem;
+}
+
+.icons{
+    display: flex;
+    gap: 32px;
 }
